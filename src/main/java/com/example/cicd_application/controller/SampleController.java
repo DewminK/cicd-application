@@ -12,4 +12,11 @@ public class SampleController {
     public String test(){
         return "CI/CD Pipeline is working!";
     }
+
+    @GetMapping("/docker-test")
+    public String dockerTest(){
+        return "Docker is Working!";
+    }
+
+
 }
