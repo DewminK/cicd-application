@@ -42,5 +42,5 @@ jobs:
         context: .
         file: ./Dockerfile
         push: true
-        tags: dewminK/cicd-application:latest
+        tags: docker.io/dewmink/cicd-application:latest
 
